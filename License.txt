@@ -1,0 +1,108 @@
+<TERMS>
+
+Effective as of: September 4, 2017
+
+These terms ("Terms") by Velvetwire, a California limited liability corporation (“Velvetwire”), govern your use of the following (collectively "Stickershock Platform"): (1) your Velvetwire hardware device (“Stickershock Device"), (2) any software and/or software updates (including boot ROM code, embedded software, third party software and data) that we install or provide for installation on your Stickershock Device (collectively “Stickershock Firmware"), (3) any application software (including mobile software and computer software) that you can use in conjunction with your Stickershock Device (collectively “Stickershock Application"), (4) any web or mobile service that we provide for use with your Stickershock Device or Stickershock Application, (collectively “Stickershock Service”), and (5) any software (including source code and documentation) we provide to you (collectively "Stickershock Examples") to assist you in developing third party applications for use with your or any other Stickershock Device.
+
+IMPORTANT: YOU AGREE TO BE BOUND BY THESE TERMS AND CONCLUDE A LEGALLY BINDING CONTRACT BASED ON THESE TERMS WITH VELVETWIRE IF YOU ACCEPT THESE TERMS EXPRESSLY, OR IF WE NOTIFY YOU OF THESE TERMS, AND YOU MAKE USE OF THE STICKERSHOCK PLATFORM OR YOU CONNECT TO A STICKERSHOCK DEVICE OR YOUR ACCESS THE STICKERSHOCK SERVICE OR YOU DOWNLOAD THE STICKERSHOCK APPLICATION OR STICKERSHOCK FIRMWARE. THESE TERMS CONTAIN IMPORTANT TERMS THAT AFFECT YOUR RIGHTS, INCLUDING DISCLAIMERS, LIMITATIONS OF LIABILITY, A CHOICE OF CALIFORNIA LAW, A BINDING ARBITRATION PROVISION AND TIME LIMIT ON SUBMITTING CLAIMS.
+
+YOU REPRESENT, ACKNOWLEDGE AND AGREE THAT YOU ARE AT LEAST 18 YEARS OF AGE OR THAT YOU HAVE YOUR PARENT OR LEGAL GUARDIAN’S PERMISSION TO AGREE TO THESE TERMS.
+
+IF YOU DO NOT AGREE WITH ANY OF THESE TERMS, THEN DO NOT USE OR ACCESS THE STICKERSHOCK PLATFORM AND DO NOT DOWNLOAD THE STICKERSHOCK APPLICATION OR STICKERSHOCK FIRMWARE.
+
+You can return your Stickershock Device for a full refund to us within 30 days of purchase if you did not know or receive notice of the requirement to accept these Terms by the time you bought the Stickershock Device and you do not accept these Terms.
+
+1. General
+
+(a) Velvetwire provides the Stickershock Platform (including the Stickershock Device, the Stickershock Firmware, the Stickershock Application, the Stickershock Service and any Stickershock Examples) on an "as is" and "as available" basis. Velvetwire reserves the right to improve and change the Stickershock Platform and any element thereof at any time, at Velvetwire’s sole discretion. Velvetwire also reserves the right to discontinue the Stickershock Platform or any element therein (including the Stickershock Device, the Stickershock Application or the Stickershock Service).
+
+(b) Use of the Stickershock Device and Stickershock Application requires a computing device such as a personal computer, tablet, smart phone or other hardware device capable of Bluetooth that you have to acquire separately from third parties (hereafter collectively "Computer"). Your ability to use the Stickershock Device and Stickershock Application may be affected by the performance of your Computer. You acknowledge and agree that all such system requirements, which may be changed from time to time, are your responsibility.
+
+2. Permitted Uses and Restrictions
+
+(a) The Stickershock Firmware, the Stickershock Application and the Stickershock Service are licensed, not sold, to you. Subject to the terms and conditions of this License, you are granted a limited, non-exclusive license to use the Stickershock Firmware on a single Stickershock Device and to use the Stickershock Application and Stickershock Service in conjunction with that Stickershock Device. Your license rights are non-exclusive, limited, revocable, personal, non-sub-licenseable and non-assignable.
+
+(b) Your use of the Stickershock Platform is subject to these Terms and any additional software license terms that accompany downloads, including third party license terms and open source software license terms.
+
+(c) You may not, and you agree not to encourage or enable others to, replicate, disassemble, reverse-engineer, attempt to derive the schematics of, modify or otherwise tamper with the Stickershock Device or any part thereof.
+
+(d) You may not, and you agree not to encourage or enable others to, copy (except as expressly permitted by this License), decompile, disassemble, reverse-engineer, attempt to derive the source code of, decrypt, modify or create derivative works of the Stickershock Firmware or any services provided by the Stickershock Firmware or any part thereof (except as and only to the extent any foregoing restriction is prohibited by applicable law or licensing terms governing the use of open-source components that may be included with the Stickershock Firmware).
+
+(e) You may not, and you agree not to encourage or enable others to, circumvent, modify, reverse-engineer, or otherwise tamper with any security technology or software that is part of the Stickershock Platform, or is used to monitor or enforce these Terms. Velvetwire may implement digital rights management ("DRM") or other similar security systems that contain measures designed to prevent unauthorized copying of software or access to services used in conjunction with or as part of the Stickershock Platform.
+
+(f) You may not remove any proprietary notices or labels on the Stickershock Device.
+
+(g) Velvetwire may cause the Stickershock Application and updates to the Stickershock Application and/or Stickershock Firmware to be downloaded onto your Computer, and may also cause the most recent version of the Stickershock Firmware, not already installed onto your Stickershock Device, to be transferred onto the Stickershock Device anytime you use the StickerShock Application while connected to the Stickershock Device. By using the Stickershock Application, you are requesting such automatic updating.
+
+(h) Notwithstanding any other provision of these Terms, Velvetwire and its licensors reserve the right to change, suspend, remove or disable access to any content, features of the Stickershock Platform at any time without notice. In no event will Velvetwire be liable for the removal of or disabling of access to any such content, features or materials. Velvetwire may also impose limits on the use of or access to certain features or services without notice or liability.
+
+(i) You acknowledge that services and features of the Stickershock Application may cause your Computer to transmit data and could impact charges to your data plan, and that you are responsible for any such charges.
+
+(j) You acknowledge that, in order to access the Stickershock Service, you may be required to supply identifying information about yourself, such as your e-mail address. If you do not wish to have such data processed or stored by Velvetwire in accordance with Velvetwire’s policies and notices, then you must not use the Stickershock Service.
+
+3. Third Party Content
+
+(a) Certain features and services available as part of the Stickershock Platform may include materials from third parties. Velvetwire is not responsible for examining or evaluating the content or accuracy of any such third party material or services. Velvetwire does not warrant any third party material or services and does not endorse any third party content or web sites. Velvetwire does not assume, and will have no liability or responsibility for any third party products, services, content, materials or web sites. Links to other web sites are provided solely as a convenience to you.
+
+(b) You agree that you will not use any third party products, services, web sites or other materials in a manner that would infringe or violate the rights of any other party, and that Velvetwire has no liability or responsibility for your use of any third party products, services, web sites or other materials. You agree to defend, indemnify and hold harmless Velvetwire and its affiliates, and their respective officers, directors, employees, agents, and representatives from any and all claims arising out of your use of any third party products, services, web sites, or material of any kind.
+
+4. Proprietary Information
+
+(a) THE STICKERSHOCK PLATFORM CONTAINS PROPRIETARY INFORMATION AND MATERIAL THAT IS OWNED BY VELVETWIRE AND/OR ITS LICENSORS, AND IS PROTECTED BY APPLICABLE INTELLECTUAL PROPERTY AND OTHER LAWS, INCLUDING, BUT NOT LIMITED TO, DOMESTIC AND INTERNATIONAL COPYRIGHT LAWS. THE USE OF THE STICKERSHOCK PLATFORM EXCEPT AS EXPRESSLY PERMITTED IN THESE TERMS, IS STRICTLY PROHIBITED, INFRINGES UPON THE INTELLECTUAL PROPERTY RIGHTS OF OTHERS AND MAY SUBJECT YOU TO CIVIL AND CRIMINAL PENALTIES, INCLUDING POSSIBLE MONETARY DAMAGES.
+
+(b) You may not use the Stickershock Application, Stickershock Service, Stickershock Firmware, or any information and materials contained therein, in any way whatsoever except for use with the Stickershock Device in compliance with these Terms. You agree not to modify, rent, lease, loan, sell, distribute or create derivative works based on the Stickershock Platform, in any manner, nor shall you exploit the Stickershock Platform in any unauthorized way whatsoever, including, but not limited to trespass or burdening network capacity.
+
+(c) All Velvetwire logos and trademarks used in connection with the Stickershock Platform are trademarks or registered trademarks of Velvetwire in the U.S. and/or other countries. Other trademarks, service marks, graphics, and logos used in connection with the Stickershock Platform may be the trademarks of their respective owners. Velvetwire does not grant you any right or license with respect to any logos or trademarks.
+
+5. Enforcement and Termination
+
+(a) Velvetwire reserves the right to take steps that Velvetwire believes are reasonably necessary or appropriate to enforce and verify your compliance with these Terms.
+
+(b) Termination. These Terms and all rights and licenses granted herein are effective from the time you accept these Terms until these Terms are terminated. You may terminate these Terms at any time by permanently ceasing your use of the Stickershock Platform (including all elements therein), provided that the Terms shall continue to govern any past use. Velvetwire may update, suspend or terminate your use of the Stickershock Application and/or the Stickershock Service, effective immediately, if you breach these Terms or with reasonable notice to you and subject to any warranty claims you may have in case of termination. All obligations of confidentiality and restrictions on use, and all other provisions that may reasonably be interpreted to survive termination of these Terms, will survive termination of these Terms, regardless of the reasons for termination. Upon termination, you agree to cease all use of the Stickershock Platform. If you fail to comply with any of the provisions of these Terms, including, but not limited to, infringing or otherwise violating the rights of any third party, Velvetwire, at its sole discretion, without notice to you may: (i) terminate these Terms; (ii) terminate all rights of your Stickershock Service account; and (iii) preclude you from accessing the Stickershock Service or any part of it.
+
+6. Disclaimer of Warranties.
+
+(a) In these Terms, Velvetwire does not extend any express warranties, representations or conditions.
+
+(b) YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE STICKERSHOCK PLATFORM IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VELVETWIRE PROVIDES THE STICKERSHOCK PLATFORM "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND WITHOUT EXPRESS WARRANTIES, REPRESENTATIONS OR CONDITIONS OF ANY KIND, AND VELVETWIRE HEREBY DISCLAIMS ANY IMPLIED WARRANTIES AND CONDITIONS WITH RESPECT TO THE STICKERSHOCK PLATFORM, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, OF SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF ACCURACY, OF QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS. VELVETWIRE AND ITS LICENSORS DO NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE STICKERSHOCK PLATFORM, THAT THE FUNCTIONS CONTAINED IN, OR SERVICES PERFORMED OR PROVIDED BY, THE STICKERSHOCK PLATFORM WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE STICKERSHOCK DEVICE, THE STICKERSHOCK APPLICATION OR THE STICKERSHOCK SERVICE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN ANY ELEMENT OF THE STICKERSHOCK PLATFORM WILL BE CORRECTED.
+
+(c) NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY ANY SELLER WILL CREATE A WARRANTY OBLIGATION ON VELVETWIRE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS ON APPLICABLE STATUTORY RIGHTS OF A CONSUMER, SO THE ABOVE EXCLUSION AND LIMITATIONS MAY NOT APPLY TO YOU.
+
+(d) THE STICKERSHOCK DEVICE IS NOT INTENDED FOR USE IN THE OPERATION OF NUCLEAR FACILITIES, LIFE SUPPORT SYSTEMS, EMERGENCY COMMUNICATIONS, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL SYSTEMS, OR ANY OTHER ACTIVITIES IN WHICH THE FAILURE OF ANY ELEMENT OF THE STICKERSHOCK PLATFORM COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE. FURTHER YOU ACKNOWLEDGE THAT VELVETWIRE’S CONTINUED PROVISION OF THE STICKERSHOCK SERVICE RELIES UPON THE GENERAL OPERATION OF THE INTERNET AND WORLD WIDE WEB AND CERTAIN FACTORS NECESSARY FOR THE CONTINUOUS OPERATION OF THE INTERNET AND WORLD WIDE WEB ARE BEYOND VELVETWIRE’S CONTROL.
+
+(e) VELVETWIRE DOES NOT REPRESENT OR GUARANTEE THAT THE STICKERSHOCK APPLICATION OR THE STICKERSHOCK SERVICE WILL BE FREE FROM LOSS, CORRUPTION, ATTACK, VIRUSES, INTERFERENCE, HACKING OR OTHER SECURITY INTRUSION, AND VELVETWIRE DISCLAIMS ANY LIABILITY RELATING THERETO.
+
+(f) YOU ACKNOWLEDGE AND AGREE THAT YOUR SUBMISSION OF ANY INFORMATION IN CONNECTION WITH THE STICKERSHOCK PLATFORM IS AT YOUR SOLE RISK. VELVETWIRE HEREBY DISCLAIMS ANY AND ALL LIABILITY TO YOU FOR ANY LOSS OR LIABILITY RELATING TO SUCH INFORMATION IN ANY WAY.
+
+7. Limitation of Liability.
+
+(a) YOU EXPRESSLY UNDERSTAND AND AGREE THAT VELVETWIRE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS ARE NOT LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU THROUGH YOUR USE OF THE STICKERSHOCK PLATFORM, INCLUDING ANY LOSS OF DATA OR DAMAGE TO YOUR PROPERTY OR POSSESSIONS, WHETHER OR NOT VELVETWIRE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OF LIABILITY FOR PERSONAL INJURY, OR OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU. IN NO EVENT WILL VELVETWIRE OR ITS LICENSORS TOTAL LIABILITY TO YOU FOR ALL DAMAGES (OTHER THAN AS MAY BE REQUIRED BY APPLICABLE LAW IN CASES INVOLVING PERSONAL INJURY) EXCEED THE AMOUNT OF FIFTY DOLLARS (USD $50.00). THE FOREGOING LIMITATIONS WILL APPLY EVEN IF ANY OF THE REMEDY PROVIDED HEREIN FAIL OF THEIR ESSENTIAL PURPOSE.
+
+(b). BY USING THE STICKERSHOCK PLATFORM, YOU AGREE TO INDEMNIFY AND HOLD HARMLESS VELVETWIRE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS AND LICENSORS WITH RESPECT TO ANY CLAIMS ARISING OUT OF YOUR BREACH OF THESE TERMS, OR ANY ACTION TAKEN BY VELVETWIRE AS PART OF ITS INVESTIGATION OF A SUSPECTED VIOLATION OF THESE TERMS OF USE OR AS A RESULT OF ITS FINDING OR DECISION THAT A VIOLATION OF THESE TERMS OF USE HAS OCCURRED.
+
+8. Miscellaneous
+
+(a) If you are located outside the U.S., then you are responsible for complying with any local laws in your jurisdiction which might impact your right to import, export or use the Stickershock Platform or certain elements therein, and you represent that you have complied with any regulations or registration procedures required by applicable law to make this license enforceable.
+
+(b) These Terms constitute the entire agreement between you and Velvetwire relating to and govern your use of the Stickershock Platform and completely replace any prior or contemporaneous agreements between you and Velvetwire regarding your use of the Stickershock Platform.
+
+(c) The failure of Velvetwire to exercise or enforce any right or provision of these Terms does not constitute a waiver of such right or provision, which will still be available to Velvetwire.
+
+(d) If any court of law, having the jurisdiction to decide on this matter, rules that any provision of these Terms is invalid, then that provision will be removed from the Terms without affecting the rest of the Terms. The remaining provisions of these Terms will continue to be valid and enforceable.
+
+(e) The Terms and any dispute arising out of or in connection with these Terms and/or the Stickershock Platform shall be governed by the laws of California, USA, except conflicts of law provisions and except for the rules of the Convention for the International Sale of Goods (“CISG").
+
+
+<REGULATORY INFORMATION>
+
+Stickershock
+Model: ---
+FCC ID: ---
+
+<PATENTS>
+
+Stickershock is protected by pending and granted patents. See velvetwire.com/patents for a list of all applicable patents.
+
+<COPYRIGHTS AND TRADEMARKS>
+
+Velvetwire® and the Velvetwire logo are registered trademarks of Velvetwire LLC, registered in the U.S. and other countries.

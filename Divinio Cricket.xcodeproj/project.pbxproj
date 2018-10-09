@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0709DA7E21613831008988C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0709DA7D21613831008988C2 /* AppDelegate.m */; };
+		0709DA8121613831008988C2 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0709DA8021613831008988C2 /* ScanViewController.m */; };
+		0709DA8421613831008988C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0709DA8221613831008988C2 /* Main.storyboard */; };
+		0709DA8721613831008988C2 /* Divinio_Cricket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0709DA8521613831008988C2 /* Divinio_Cricket.xcdatamodeld */; };
+		0709DA8921613832008988C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709DA8821613832008988C2 /* Assets.xcassets */; };
+		0709DA8C21613832008988C2 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0709DA8A21613832008988C2 /* Launch.storyboard */; };
+		0709DA8F21613833008988C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0709DA8E21613833008988C2 /* main.m */; };
+		0709DA9821613877008988C2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0709DA9621613877008988C2 /* CoreBluetooth.framework */; };
+		0709DA9921613877008988C2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0709DA9721613877008988C2 /* CoreData.framework */; };
+		0709DA9C21613F02008988C2 /* ScanViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0709DA9B21613F02008988C2 /* ScanViewCell.m */; };
+		0709DA9F2161794D008988C2 /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0709DA9E2161794D008988C2 /* ConnectionViewController.m */; };
+		0709DAA221618120008988C2 /* ConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0709DAA121618120008988C2 /* ConnectionController.m */; };
+		0709DAA5216187A8008988C2 /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0709DAA4216187A8008988C2 /* DeviceManager.m */; };
+		0754DC6D216939300048B78D /* DeviceRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754DC6C216939300048B78D /* DeviceRegistry.m */; };
+		0754DC6F216BCF9C0048B78D /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0754DC6E216BCF9C0048B78D /* License.txt */; };
+		0754DC72216BE9300048B78D /* SessionShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754DC71216BE9300048B78D /* SessionShotCell.m */; };
+		0754DC75216BEB210048B78D /* SessionTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754DC74216BEB210048B78D /* SessionTapCell.m */; };
+		0754DC78216BEEEF0048B78D /* UIDialGadget.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754DC77216BEEEF0048B78D /* UIDialGadget.m */; };
+		0754DC7A216C1A3D0048B78D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0754DC79216C1A3D0048B78D /* CoreLocation.framework */; };
+		07872E1C2161DE3400C6E2E8 /* DeviceInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 07872E1B2161DE3400C6E2E8 /* DeviceInstance.m */; };
+		07872E1F21630B6900C6E2E8 /* UISignalGadget.m in Sources */ = {isa = PBXBuildFile; fileRef = 07872E1E21630B6900C6E2E8 /* UISignalGadget.m */; };
+		07D324B02166D48F00BDEE89 /* SettingsValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D324AF2166D48F00BDEE89 /* SettingsValueCell.m */; };
+		07EAD78B2163FF8900EC94B8 /* UIBatteryGadget.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD78A2163FF8900EC94B8 /* UIBatteryGadget.m */; };
+		07EAD78E216433DE00EC94B8 /* SettingsTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD78D216433DE00EC94B8 /* SettingsTabController.m */; };
+		07EAD7982164406D00EC94B8 /* SettingsDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD7972164406D00EC94B8 /* SettingsDetailCell.m */; };
+		07EAD79B216440F700EC94B8 /* SettingsOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD79A216440F700EC94B8 /* SettingsOptionCell.m */; };
+		07EAD79E2164412A00EC94B8 /* SettingsEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD79D2164412A00EC94B8 /* SettingsEditCell.m */; };
+		07EAD7A12164722F00EC94B8 /* ConnectionPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD7A02164722F00EC94B8 /* ConnectionPageController.m */; };
+		07EAD7A4216473EF00EC94B8 /* SessionTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD7A3216473EF00EC94B8 /* SessionTabController.m */; };
+		07EAD7A72164740100EC94B8 /* ShotTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD7A62164740100EC94B8 /* ShotTabController.m */; };
+		07EAD7AA21649EEA00EC94B8 /* UIPowerGadget.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EAD7A921649EEA00EC94B8 /* UIPowerGadget.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0709DA7921613831008988C2 /* Divinio Cricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Divinio Cricket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0709DA7C21613831008988C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0709DA7D21613831008988C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0709DA7F21613831008988C2 /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		0709DA8021613831008988C2 /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		0709DA8321613831008988C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0709DA8621613831008988C2 /* Divinio_Cricket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Divinio_Cricket.xcdatamodel; sourceTree = "<group>"; };
+		0709DA8821613832008988C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0709DA8B21613832008988C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Launch.storyboard; sourceTree = "<group>"; };
+		0709DA8D21613832008988C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0709DA8E21613833008988C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0709DA9621613877008988C2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0709DA9721613877008988C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0709DA9A21613F02008988C2 /* ScanViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewCell.h; sourceTree = "<group>"; };
+		0709DA9B21613F02008988C2 /* ScanViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewCell.m; sourceTree = "<group>"; };
+		0709DA9D2161794D008988C2 /* ConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		0709DA9E2161794D008988C2 /* ConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		0709DAA021618120008988C2 /* ConnectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionController.h; sourceTree = "<group>"; };
+		0709DAA121618120008988C2 /* ConnectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionController.m; sourceTree = "<group>"; };
+		0709DAA3216187A8008988C2 /* DeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceManager.h; sourceTree = "<group>"; };
+		0709DAA4216187A8008988C2 /* DeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManager.m; sourceTree = "<group>"; };
+		0754DC6B216939300048B78D /* DeviceRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceRegistry.h; sourceTree = "<group>"; };
+		0754DC6C216939300048B78D /* DeviceRegistry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceRegistry.m; sourceTree = "<group>"; };
+		0754DC6E216BCF9C0048B78D /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = SOURCE_ROOT; };
+		0754DC70216BE9300048B78D /* SessionShotCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionShotCell.h; sourceTree = "<group>"; };
+		0754DC71216BE9300048B78D /* SessionShotCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionShotCell.m; sourceTree = "<group>"; };
+		0754DC73216BEB210048B78D /* SessionTapCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionTapCell.h; sourceTree = "<group>"; };
+		0754DC74216BEB210048B78D /* SessionTapCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionTapCell.m; sourceTree = "<group>"; };
+		0754DC76216BEEEF0048B78D /* UIDialGadget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDialGadget.h; sourceTree = "<group>"; };
+		0754DC77216BEEEF0048B78D /* UIDialGadget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDialGadget.m; sourceTree = "<group>"; };
+		0754DC79216C1A3D0048B78D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07872E1A2161DE3400C6E2E8 /* DeviceInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInstance.h; sourceTree = "<group>"; };
+		07872E1B2161DE3400C6E2E8 /* DeviceInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInstance.m; sourceTree = "<group>"; };
+		07872E1D21630B6900C6E2E8 /* UISignalGadget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISignalGadget.h; sourceTree = "<group>"; };
+		07872E1E21630B6900C6E2E8 /* UISignalGadget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISignalGadget.m; sourceTree = "<group>"; };
+		07D324AE2166D48F00BDEE89 /* SettingsValueCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsValueCell.h; sourceTree = "<group>"; };
+		07D324AF2166D48F00BDEE89 /* SettingsValueCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsValueCell.m; sourceTree = "<group>"; };
+		07EAD7892163FF8900EC94B8 /* UIBatteryGadget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBatteryGadget.h; sourceTree = "<group>"; };
+		07EAD78A2163FF8900EC94B8 /* UIBatteryGadget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBatteryGadget.m; sourceTree = "<group>"; };
+		07EAD78C216433DE00EC94B8 /* SettingsTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTabController.h; sourceTree = "<group>"; };
+		07EAD78D216433DE00EC94B8 /* SettingsTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTabController.m; sourceTree = "<group>"; };
+		07EAD7962164406D00EC94B8 /* SettingsDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsDetailCell.h; sourceTree = "<group>"; };
+		07EAD7972164406D00EC94B8 /* SettingsDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsDetailCell.m; sourceTree = "<group>"; };
+		07EAD799216440F700EC94B8 /* SettingsOptionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsOptionCell.h; sourceTree = "<group>"; };
+		07EAD79A216440F700EC94B8 /* SettingsOptionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsOptionCell.m; sourceTree = "<group>"; };
+		07EAD79C2164412A00EC94B8 /* SettingsEditCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsEditCell.h; sourceTree = "<group>"; };
+		07EAD79D2164412A00EC94B8 /* SettingsEditCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsEditCell.m; sourceTree = "<group>"; };
+		07EAD79F2164722F00EC94B8 /* ConnectionPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionPageController.h; sourceTree = "<group>"; };
+		07EAD7A02164722F00EC94B8 /* ConnectionPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionPageController.m; sourceTree = "<group>"; };
+		07EAD7A2216473EF00EC94B8 /* SessionTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionTabController.h; sourceTree = "<group>"; };
+		07EAD7A3216473EF00EC94B8 /* SessionTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionTabController.m; sourceTree = "<group>"; };
+		07EAD7A52164740100EC94B8 /* ShotTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotTabController.h; sourceTree = "<group>"; };
+		07EAD7A62164740100EC94B8 /* ShotTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotTabController.m; sourceTree = "<group>"; };
+		07EAD7A821649EEA00EC94B8 /* UIPowerGadget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIPowerGadget.h; sourceTree = "<group>"; };
+		07EAD7A921649EEA00EC94B8 /* UIPowerGadget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPowerGadget.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0709DA7621613831008988C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0754DC7A216C1A3D0048B78D /* CoreLocation.framework in Frameworks */,
+				0709DA9821613877008988C2 /* CoreBluetooth.framework in Frameworks */,
+				0709DA9921613877008988C2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0709DA7021613831008988C2 = {
+			isa = PBXGroup;
+			children = (
+				0709DA7B21613831008988C2 /* Divinio Cricket */,
+				0709DA7A21613831008988C2 /* Products */,
+				0709DA9521613877008988C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0709DA7A21613831008988C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0709DA7921613831008988C2 /* Divinio Cricket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0709DA7B21613831008988C2 /* Divinio Cricket */ = {
+			isa = PBXGroup;
+			children = (
+				07EAD78F2164341C00EC94B8 /* Application */,
+				07EAD7912164346100EC94B8 /* Device Manager */,
+				07EAD7902164343500EC94B8 /* Device Scanning */,
+				07EAD7932164349100EC94B8 /* Device Navigation */,
+				07EAD7922164347B00EC94B8 /* Interface Gadgets */,
+				07EAD7952164357D00EC94B8 /* Storyboards */,
+				0709DA8821613832008988C2 /* Assets.xcassets */,
+				0709DA8521613831008988C2 /* Divinio_Cricket.xcdatamodeld */,
+				0754DC6E216BCF9C0048B78D /* License.txt */,
+				0709DA8D21613832008988C2 /* Info.plist */,
+			);
+			path = "Divinio Cricket";
+			sourceTree = "<group>";
+		};
+		0709DA9521613877008988C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0754DC79216C1A3D0048B78D /* CoreLocation.framework */,
+				0709DA9621613877008988C2 /* CoreBluetooth.framework */,
+				0709DA9721613877008988C2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07EAD78F2164341C00EC94B8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0709DA7C21613831008988C2 /* AppDelegate.h */,
+				0709DA7D21613831008988C2 /* AppDelegate.m */,
+				0709DA8E21613833008988C2 /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		07EAD7902164343500EC94B8 /* Device Scanning */ = {
+			isa = PBXGroup;
+			children = (
+				0709DA7F21613831008988C2 /* ScanViewController.h */,
+				0709DA8021613831008988C2 /* ScanViewController.m */,
+				0709DA9A21613F02008988C2 /* ScanViewCell.h */,
+				0709DA9B21613F02008988C2 /* ScanViewCell.m */,
+			);
+			path = "Device Scanning";
+			sourceTree = "<group>";
+		};
+		07EAD7912164346100EC94B8 /* Device Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0709DAA3216187A8008988C2 /* DeviceManager.h */,
+				0709DAA4216187A8008988C2 /* DeviceManager.m */,
+				07872E1A2161DE3400C6E2E8 /* DeviceInstance.h */,
+				07872E1B2161DE3400C6E2E8 /* DeviceInstance.m */,
+				0754DC6B216939300048B78D /* DeviceRegistry.h */,
+				0754DC6C216939300048B78D /* DeviceRegistry.m */,
+			);
+			path = "Device Manager";
+			sourceTree = "<group>";
+		};
+		07EAD7922164347B00EC94B8 /* Interface Gadgets */ = {
+			isa = PBXGroup;
+			children = (
+				07EAD7892163FF8900EC94B8 /* UIBatteryGadget.h */,
+				07EAD78A2163FF8900EC94B8 /* UIBatteryGadget.m */,
+				07872E1D21630B6900C6E2E8 /* UISignalGadget.h */,
+				07872E1E21630B6900C6E2E8 /* UISignalGadget.m */,
+				07EAD7A821649EEA00EC94B8 /* UIPowerGadget.h */,
+				07EAD7A921649EEA00EC94B8 /* UIPowerGadget.m */,
+				0754DC76216BEEEF0048B78D /* UIDialGadget.h */,
+				0754DC77216BEEEF0048B78D /* UIDialGadget.m */,
+			);
+			path = "Interface Gadgets";
+			sourceTree = "<group>";
+		};
+		07EAD7932164349100EC94B8 /* Device Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0709DAA021618120008988C2 /* ConnectionController.h */,
+				0709DAA121618120008988C2 /* ConnectionController.m */,
+				0709DA9D2161794D008988C2 /* ConnectionViewController.h */,
+				0709DA9E2161794D008988C2 /* ConnectionViewController.m */,
+				07EAD79F2164722F00EC94B8 /* ConnectionPageController.h */,
+				07EAD7A02164722F00EC94B8 /* ConnectionPageController.m */,
+				07EAD794216434FB00EC94B8 /* Device Tabs */,
+			);
+			path = "Device Navigation";
+			sourceTree = "<group>";
+		};
+		07EAD794216434FB00EC94B8 /* Device Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				07EAD7A52164740100EC94B8 /* ShotTabController.h */,
+				07EAD7A62164740100EC94B8 /* ShotTabController.m */,
+				07EAD7A2216473EF00EC94B8 /* SessionTabController.h */,
+				07EAD7A3216473EF00EC94B8 /* SessionTabController.m */,
+				0754DC70216BE9300048B78D /* SessionShotCell.h */,
+				0754DC71216BE9300048B78D /* SessionShotCell.m */,
+				0754DC73216BEB210048B78D /* SessionTapCell.h */,
+				0754DC74216BEB210048B78D /* SessionTapCell.m */,
+				07EAD78C216433DE00EC94B8 /* SettingsTabController.h */,
+				07EAD78D216433DE00EC94B8 /* SettingsTabController.m */,
+				07EAD7962164406D00EC94B8 /* SettingsDetailCell.h */,
+				07EAD7972164406D00EC94B8 /* SettingsDetailCell.m */,
+				07EAD799216440F700EC94B8 /* SettingsOptionCell.h */,
+				07EAD79A216440F700EC94B8 /* SettingsOptionCell.m */,
+				07D324AE2166D48F00BDEE89 /* SettingsValueCell.h */,
+				07D324AF2166D48F00BDEE89 /* SettingsValueCell.m */,
+				07EAD79C2164412A00EC94B8 /* SettingsEditCell.h */,
+				07EAD79D2164412A00EC94B8 /* SettingsEditCell.m */,
+			);
+			path = "Device Tabs";
+			sourceTree = "<group>";
+		};
+		07EAD7952164357D00EC94B8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0709DA8A21613832008988C2 /* Launch.storyboard */,
+				0709DA8221613831008988C2 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0709DA7821613831008988C2 /* Divinio Cricket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0709DA9221613833008988C2 /* Build configuration list for PBXNativeTarget "Divinio Cricket" */;
+			buildPhases = (
+				0709DA7521613831008988C2 /* Sources */,
+				0709DA7621613831008988C2 /* Frameworks */,
+				0709DA7721613831008988C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Divinio Cricket";
+			productName = "Divinio Cricket";
+			productReference = 0709DA7921613831008988C2 /* Divinio Cricket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0709DA7121613831008988C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.velvetwire;
+				TargetAttributes = {
+					0709DA7821613831008988C2 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0709DA7421613831008988C2 /* Build configuration list for PBXProject "Divinio Cricket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0709DA7021613831008988C2;
+			productRefGroup = 0709DA7A21613831008988C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0709DA7821613831008988C2 /* Divinio Cricket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0709DA7721613831008988C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0754DC6F216BCF9C0048B78D /* License.txt in Resources */,
+				0709DA8C21613832008988C2 /* Launch.storyboard in Resources */,
+				0709DA8921613832008988C2 /* Assets.xcassets in Resources */,
+				0709DA8421613831008988C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0709DA7521613831008988C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EAD7982164406D00EC94B8 /* SettingsDetailCell.m in Sources */,
+				0709DA8121613831008988C2 /* ScanViewController.m in Sources */,
+				07EAD78B2163FF8900EC94B8 /* UIBatteryGadget.m in Sources */,
+				07EAD7A4216473EF00EC94B8 /* SessionTabController.m in Sources */,
+				07EAD7AA21649EEA00EC94B8 /* UIPowerGadget.m in Sources */,
+				07EAD79E2164412A00EC94B8 /* SettingsEditCell.m in Sources */,
+				07EAD7A72164740100EC94B8 /* ShotTabController.m in Sources */,
+				07872E1F21630B6900C6E2E8 /* UISignalGadget.m in Sources */,
+				07EAD78E216433DE00EC94B8 /* SettingsTabController.m in Sources */,
+				0754DC75216BEB210048B78D /* SessionTapCell.m in Sources */,
+				07EAD7A12164722F00EC94B8 /* ConnectionPageController.m in Sources */,
+				0709DA8721613831008988C2 /* Divinio_Cricket.xcdatamodeld in Sources */,
+				0754DC6D216939300048B78D /* DeviceRegistry.m in Sources */,
+				0754DC78216BEEEF0048B78D /* UIDialGadget.m in Sources */,
+				0754DC72216BE9300048B78D /* SessionShotCell.m in Sources */,
+				0709DA9F2161794D008988C2 /* ConnectionViewController.m in Sources */,
+				07872E1C2161DE3400C6E2E8 /* DeviceInstance.m in Sources */,
+				0709DA9C21613F02008988C2 /* ScanViewCell.m in Sources */,
+				07EAD79B216440F700EC94B8 /* SettingsOptionCell.m in Sources */,
+				0709DA8F21613833008988C2 /* main.m in Sources */,
+				07D324B02166D48F00BDEE89 /* SettingsValueCell.m in Sources */,
+				0709DAA5216187A8008988C2 /* DeviceManager.m in Sources */,
+				0709DA7E21613831008988C2 /* AppDelegate.m in Sources */,
+				0709DAA221618120008988C2 /* ConnectionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0709DA8221613831008988C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0709DA8321613831008988C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0709DA8A21613832008988C2 /* Launch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0709DA8B21613832008988C2 /* Base */,
+			);
+			name = Launch.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0709DA9021613833008988C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0709DA9121613833008988C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0709DA9321613833008988C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EY4LZWYGFB;
+				INFOPLIST_FILE = "Divinio Cricket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.velvetwire.Divinio-Cricket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0709DA9421613833008988C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EY4LZWYGFB;
+				INFOPLIST_FILE = "Divinio Cricket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.velvetwire.Divinio-Cricket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0709DA7421613831008988C2 /* Build configuration list for PBXProject "Divinio Cricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0709DA9021613833008988C2 /* Debug */,
+				0709DA9121613833008988C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0709DA9221613833008988C2 /* Build configuration list for PBXNativeTarget "Divinio Cricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0709DA9321613833008988C2 /* Debug */,
+				0709DA9421613833008988C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0709DA8521613831008988C2 /* Divinio_Cricket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0709DA8621613831008988C2 /* Divinio_Cricket.xcdatamodel */,
+			);
+			currentVersion = 0709DA8621613831008988C2 /* Divinio_Cricket.xcdatamodel */;
+			path = Divinio_Cricket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0709DA7121613831008988C2 /* Project object */;
+}
